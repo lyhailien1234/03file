@@ -523,20 +523,20 @@
             {
                 id: 'p1',
                 name: 'iPhone 15 Pro Max',
-                basePrice: 28000000,
-                image: 'https://placehold.co/400x400/FF0000/FFFFFF?text=iPhone+15',
+                basePrice: 29.990.000₫,
+                image: 'https://raw.githubusercontent.com/ipshopvip/My-images/1de8a8aaafd2c5c42974c7b9aa3d0c65330e06ad/ip15prm.jpg,
                 description: 'iPhone 15 Pro Max là điện thoại thông minh cao cấp với chip A17 Bionic, camera Pro mạnh mẽ và màn hình Super Retina XDR.',
                 options: {
                     color: [
-                        { name: 'Titan Tự Nhiên', display_image: 'https://placehold.co/400x400/969696/FFFFFF?text=Titan+Tu+Nhien', price_impact: 0 },
-                        { name: 'Titan Xanh', display_image: 'https://placehold.co/400x400/2A52BE/FFFFFF?text=Titan+Xanh', price_impact: 500000 },
-                        { name: 'Titan Trắng', display_image: 'https://placehold.co/400x400/E0E0E0/000000?text=Titan+Trang', price_impact: 200000 }
+                        { name: 'Titan Tự Nhiên', display_image: ' https://raw.githubusercontent.com/ipshopvip/My-images/refs/heads/main/xanh-titan.jpg },
+                        { name: 'Titan Xanh', display_image: ' https://raw.githubusercontent.com/ipshopvip/My-images/refs/heads/main/xanh-titan.jpg },
+                        { name: 'Titan Trắng', display_image: ' https://raw.githubusercontent.com/ipshopvip/My-images/refs/heads/main/trang-titan.jpg }
                     ],
                     storage: [
                         { name: '128GB', price_impact: 0 },
-                        { name: '256GB', price_impact: 1000000 },
-                        { name: '512GB', price_impact: 2500000 },
-                        { name: '1TB', price_impact: 4000000 }
+                        { name: '256GB', price_impact: 29.990.000₫ },
+                        { name: '512GB', price_impact: 32.990.000₫ },
+                        { name: '1TB', price_impact: 38.990.000₫ }
                     ]
                 },
                 variants: [
@@ -558,73 +558,37 @@
             },
             {
                 id: 'p2',
-                name: 'Samsung Galaxy S24 Ultra',
-                basePrice: 26000000,
-                image: 'https://placehold.co/400x400/0000FF/FFFFFF?text=S24+Ultra',
-                description: 'Samsung Galaxy S24 Ultra với S Pen tích hợp, camera 200MP và hiệu năng mạnh mẽ.',
+                name: 'Điện thoại iPhone 14 Pro Max',
+                basePrice: 26.990.000,
+                image: 'https://stcv4.hnammobile.com/downloads/4/kich-thuoc-iphone-14-pro-tong-the-man-hinh-cum-camera-01663054887.jpg',
+                description: '⚡ Hiệu năng mạnh mẽ với chip A16 Bionic
+Sử dụng chip A16 Bionic – tiến trình 4nm, nhanh hơn và tiết kiệm pin hơn so với A15 trên iPhone 13 Pro Max.
+
+Xử lý tốt mọi tác vụ: chơi game nặng, quay phim 4K, chỉnh sửa video,...',
                 options: {
                     color: [
-                        { name: 'Đen Phantom', display_image: 'https://placehold.co/400x400/333333/FFFFFF?text=Den+Phantom', price_impact: 0 },
-                        { name: 'Xám', display_image: 'https://placehold.co/400x400/808080/FFFFFF?text=Xam', price_impact: 300000 }
+                        { name: 'Tím đậm', display_image: 'https://cdn.tgdd.vn/Files/2023/02/27/1513061/10-280223-151244.jpg 0 },
+                        { name: 'Đen', display_image:'https://photo2.tinhte.vn/data/attachment-files/2022/10/6167549_DSC_4337.jpg 0 },
+                        { name: 'Bạc', display_image: 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-bac-5-750x500.jpg 0 },
+                        { name: 'Vàng', display_image: 'https://mobileworld.com.vn/uploads/product/iPhone_14/iphone-14-pro-max-gold.jpg 0 }
                     ],
                     storage: [
-                        { name: '256GB', price_impact: 0 },
-                        { name: '512GB', price_impact: 1200000 },
-                        { name: '1TB', price_impact: 2800000 }
+                        { name: '128GB', price_impact: 24.990.000 },
+                        { name: '256GB', price_impact: 37.990.000 },
+                        { name: '512GB', price_impact: 43.990.000 },
+                        { name: '1TB', price_impact: 48.990.000 }
                     ]
                 },
                 variants: [
-                    { color: 'Đen Phantom', storage: '256GB', additional_price_impact: 0, sold: 12, remaining: 3 },
-                    { color: 'Đen Phantom', storage: '512GB', additional_price_impact: 0, sold: 8, remaining: 7 },
-                    { color: 'Đen Phantom', storage: '1TB', additional_price_impact: 0, sold: 5, remaining: 10 },
+                    { color: 'Tím Đậm', storage: '128GB', additional_price_impact: 0, sold: 12, remaining: 3 },
+                    { color: 'Tím Đậm', storage: '256GB', additional_price_impact: 0, sold: 12, remaining: 3 },
+                    { color: 'Tím Đậm', storage: '512GB', additional_price_impact: 0, sold: 8, remaining: 7 },
+                    { color: 'Tím Đậm', storage: '1TB', additional_price_impact: 0, sold: 5, remaining: 10 },
 
-                    { color: 'Xám', storage: '256GB', additional_price_impact: 0, sold: 7, remaining: 8 },
-                    { color: 'Xám', storage: '512GB', additional_price_impact: 0, sold: 4, remaining: 11 },
-                    { color: 'Xám', storage: '1TB', additional_price_impact: 0, sold: 0, remaining: 0 }, // Hết hàng
-                ]
-            },
-            {
-                id: 'p3',
-                name: 'MacBook Air M3',
-                basePrice: 23000000,
-                image: 'https://placehold.co/400x400/008000/FFFFFF?text=MacBook+Air',
-                description: 'MacBook Air M3 siêu mỏng, nhẹ và mạnh mẽ với chip M3.',
-                options: {
-                    color: [
-                        { name: 'Bạc', display_image: 'https://placehold.co/400x400/C0C0C0/000000?text=Bac', price_impact: 0 },
-                        { name: 'Xám Không Gian', display_image: 'https://placehold.co/400x400/696969/FFFFFF?text=Xam+Khong+Gian', price_impact: 100000 }
-                    ],
-                    storage: [
-                        { name: '256GB', price_impact: 0 },
-                        { name: '512GB', price_impact: 1500000 },
-                        { name: '1TB', price_impact: 3000000 }
-                    ]
-                },
-                variants: [
-                    { color: 'Bạc', storage: '256GB', additional_price_impact: 0, sold: 5, remaining: 10 },
-                    { color: 'Bạc', storage: '512GB', additional_price_impact: 0, sold: 3, remaining: 7 },
-                    { color: 'Bạc', storage: '1TB', additional_price_impact: 0, sold: 1, remaining: 4 },
-
-                    { color: 'Xám Không Gian', storage: '256GB', additional_price_impact: 0, sold: 4, remaining: 6 },
-                    { color: 'Xám Không Gian', storage: '512GB', additional_price_impact: 0, sold: 2, remaining: 8 },
-                    { color: 'Xám Không Gian', storage: '1TB', additional_price_impact: 0, sold: 0, remaining: 0 }, // Hết hàng
-                ]
-            },
-            {
-                id: 'p4',
-                name: 'Tai Nghe Sony WH-1000XM5',
-                basePrice: 7000000,
-                image: 'https://placehold.co/400x400/800080/FFFFFF?text=Sony+XM5',
-                description: 'Tai nghe chống ồn hàng đầu với chất lượng âm thanh tuyệt vời.',
-                options: {
-                    color: [
-                        { name: 'Đen', display_image: 'https://placehold.co/400x400/000000/FFFFFF?text=Den', price_impact: 0 },
-                        { name: 'Bạc', display_image: 'https://placehold.co/400x400/C0C0C0/000000?text=Bac', price_impact: 0 }
-                    ]
-                },
-                variants: [
-                    { color: 'Đen', storage: null, additional_price_impact: 0, sold: 20, remaining: 10 },
-                    { color: 'Bạc', storage: null, additional_price_impact: 0, sold: 15, remaining: 5 }
+                    { color: 'Đen', storage: '128GB', additional_price_impact: 0, sold: 7, remaining: 8 },
+                    { color: 'Đen', storage: '256GB', additional_price_impact: 0, sold: 7, remaining: 8 },
+                    { color: 'Đen', storage: '512GB', additional_price_impact: 0, sold: 4, remaining: 11 },
+                    { color: 'Đen', storage: '1TB', additional_price_impact: 0, sold: 0, remaining: 0 }, // Hết hàng
                 ]
             }
         ];
@@ -632,7 +596,7 @@
 
         // Dữ liệu voucher mẫu (hoặc tải từ localStorage)
         let vouchers = JSON.parse(localStorage.getItem('vouchers')) || {
-            'SALE10': 0.10, // Giảm 10%
+            'SALE93': 0., // Giảm 10%
             'GIAM50K': 50000, // Giảm 50,000 VND
             'FREESHIP': 'freeship' // Voucher miễn phí vận chuyển
         };
